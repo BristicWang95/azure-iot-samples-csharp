@@ -14,7 +14,7 @@ Convention-based APIs follow the following support matrix:
 | [Commands](https://docs.microsoft.com/en-us/azure/iot-develop/concepts-convention#commands)               | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_minus_sign:  | The commands feature is an encapsulation over the existing direct methods feature that the clients currently support.                       |
 | [Properties](https://docs.microsoft.com/en-us/azure/iot-develop/concepts-convention#writable-properties)  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_minus_sign:  | The properties feature is an encapsulation over the existing twin feature that the clients currently support.                                 |
 
-> Please try it out and let us know on our [discussions](https://github.com/Azure/azure-iot-sdk-csharp/discussions) page if you have any concerns, questions, or further changes you'd like to see!
+> Please try it out and let us know on our [discussions](https://github.com/Azure/azure-iot-sdk-csharp/discussions) page if you have any concerns, questions, or additional changes you would like to see!
 
 ## Table of Contents
 
