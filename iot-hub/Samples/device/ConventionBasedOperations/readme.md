@@ -4,7 +4,17 @@ Device(s)/module(s) connecting to IoT Hub that announce their DTDL model ID duri
 
 These devices/modules can now use the Azure IoT Plug and Play APIs in the Azure IoT device SDKs to directly exchange messages with an IoT Hub, without having to manually format these messages to follow the Azure IoT Plug and Play convention.
 
-> Convention-based APIs are currently supported only over MQTT. Please try it out and let us know on our [discussions](https://github.com/Azure/azure-iot-sdk-csharp/discussions) page if you have any concerns, questions, or further changes you'd like to see!
+Convention-based APIs follow the following support matrix:
+
+:heavy_check_mark: feature available  :heavy_multiplication_x: feature planned but not supported  :heavy_minus_sign: no support planned
+
+| Features                                                                                                  | mqtt                | mqtt-ws             | amqp                | amqp-ws             | https               | Description     |
+|-----------------------------------------------------------------------------------------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|-----------------|
+| [Telemetry](https://docs.microsoft.com/en-us/azure/iot-develop/concepts-convention#telemetry)             | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  | The telemetry feature is an encapsulation over the existing device-to-cloud message send feature that the clients currently support.         |
+| [Commands](https://docs.microsoft.com/en-us/azure/iot-develop/concepts-convention#commands)               | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_minus_sign:  | The commands feature is an encapsulation over the existing direct methods feature that the clients currently support.                       |
+| [Properties](https://docs.microsoft.com/en-us/azure/iot-develop/concepts-convention#writable-properties)  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_minus_sign:  | The properties feature is an encapsulation over the existing twin feature that the clients currently support.                                 |
+
+> Please try it out and let us know on our [discussions](https://github.com/Azure/azure-iot-sdk-csharp/discussions) page if you have any concerns, questions, or further changes you'd like to see!
 
 ## Table of Contents
 
