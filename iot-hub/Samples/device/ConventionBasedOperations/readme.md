@@ -19,7 +19,7 @@ Convention-based APIs follow the following support matrix:
 ## Table of Contents
 
 - [Client initialization](#client-initialization)
-  - [Announce model ID during client initialization (same as in latest `master` release)](#announce-model-ID-during-client-initialization-same-as-in-latest-master-release)
+  - [Announce model ID during client initialization (same as in latest `main` release)](#announce-model-ID-during-client-initialization-same-as-in-latest-main-release)
   - [Define the serialization and encoding convention that the client follows (newly introduced in `preview`)](#define-the-serialization-and-encoding-convention-that-the-client-follows-newly-introduced-in-preview)
 - [Terms used](#terms-used)
 - [Comparison of API calls - non-convention-aware APIs (old) vs convention-aware APIs (new):](#comparison-of-api-calls---non-convention-aware-apis-old-vs-convention-aware-apis-new)
@@ -31,7 +31,7 @@ Convention-based APIs follow the following support matrix:
 
 ## Client initialization
 
-### Announce model ID during client initialization (same as in latest [`master`][latest-master-release] release)
+### Announce model ID during client initialization (same as in latest [`main`][latest-main-release] release)
 
 ```csharp
 var options = new ClientOptions
@@ -69,7 +69,7 @@ In DTDL v2, a component cannot contain another component. The maximum depth of c
 
 ## Comparison of API calls - non-convention-aware APIs (old) vs convention-aware APIs (new):
 
-The following section provides a comparison between the older non-convention-aware APIs (as per latest [`master`][latest-master-release] release) and the newly introduced convention-aware APIs (as per latest [`preview`][latest-preview-release] release).
+The following section provides a comparison between the older non-convention-aware APIs (as per latest [`main`][latest-main-release] release) and the newly introduced convention-aware APIs (as per latest [`preview`][latest-preview-release] release).
 
 ## Telemetry
 
@@ -588,6 +588,6 @@ The samples demonstrate two scenarios:
 [thermostat-hub-qs]: https://docs.microsoft.com/azure/iot-pnp/quickstart-connect-device?pivots=programming-language-csharp
 [temp-controller-hub-tutorial]: https://docs.microsoft.com/azure/iot-pnp/tutorial-multiple-components?pivots=programming-language-csharp
 [temp-controller-central-tutorial]: https://docs.microsoft.com/azure/iot-central/core/tutorial-connect-device?pivots=programming-language-csharp
-[device-reconnection-sample]: https://github.com/Azure-Samples/azure-iot-samples-csharp/tree/master/iot-hub/Samples/device/DeviceReconnectionSample
-[latest-master-release]: https://github.com/Azure/azure-iot-sdk-csharp/tree/2021-05-13
+[device-reconnection-sample]: https://github.com/Azure-Samples/azure-iot-samples-csharp/tree/main/iot-hub/Samples/device/DeviceReconnectionSample
+[latest-main-release]: https://github.com/Azure/azure-iot-sdk-csharp/tree/2021-05-13
 [latest-preview-release]: https://github.com/Azure/azure-iot-sdk-csharp/tree/preview_2021-6-8
