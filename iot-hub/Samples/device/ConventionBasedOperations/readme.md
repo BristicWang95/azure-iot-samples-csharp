@@ -559,7 +559,7 @@ Commands subscription is implemented over the default handler. This gives rise t
 
 ### Properties
 
-Both convention-aware property updates (`SubscribeToWritablePropertyUpdateRequestsAsync`) and non-conventiom-aware twin desired property updates (`SetDesiredPropertyUpdateCallbackAsync`) are implemented over the default handler, i.e. property updates are not received on a per-property specific handler.
+Both convention-aware property updates (`SubscribeToWritablePropertyUpdateRequestsAsync`) and non-convention-aware twin desired property updates (`SetDesiredPropertyUpdateCallbackAsync`) are implemented over the default handler, i.e. property updates are not received on a per-property specific handler.
 
 Since both of these APIs set the default handler, the order in which these callbacks are set is relevant. The handler that is set the last will overwrite any previously set handler and that is the one which would always get triggered.
 
